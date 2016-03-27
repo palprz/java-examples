@@ -8,6 +8,9 @@ import org.junit.Test;
  * @author Przemyslaw Paluch
  */
 public class FizzBuzzTest {
+	private final static String FIZZ = "Fizz";
+	private final static String BUZZ = "Buzz";
+	private final static String FIZZ_BUZZ = "FizzBuzz";
 
 	@Test
 	public void shouldEqualNumberString() {
@@ -19,25 +22,25 @@ public class FizzBuzzTest {
 	
 	@Test
 	public void shouldEqualFizz() {
-		assertEquals( "Fizz", FizzBuzz.fizzBuzz( 3 ) );
-		assertEquals( "Fizz", FizzBuzz.fizzBuzz( 6 ) );
-		assertEquals( "Fizz", FizzBuzz.fizzBuzz( 33 ) );
-		assertEquals( "Fizz", FizzBuzz.fizzBuzz( 99 ) );
+		assertEquals( FIZZ, FizzBuzz.fizzBuzz( 3 ) );
+		assertEquals( FIZZ, FizzBuzz.fizzBuzz( 6 ) );
+		assertEquals( FIZZ, FizzBuzz.fizzBuzz( 33 ) );
+		assertEquals( FIZZ, FizzBuzz.fizzBuzz( 99 ) );
 	}
 	
 	@Test
 	public void shouldEqualBuzz() {
-		assertEquals( "Buzz", FizzBuzz.fizzBuzz( 5 ) );
-		assertEquals( "Buzz", FizzBuzz.fizzBuzz( 10 ) );
-		assertEquals( "Buzz", FizzBuzz.fizzBuzz( 50 ) );
-		assertEquals( "Buzz", FizzBuzz.fizzBuzz( 110 ) );		
+		assertEquals( BUZZ, FizzBuzz.fizzBuzz( 5 ) );
+		assertEquals( BUZZ, FizzBuzz.fizzBuzz( 10 ) );
+		assertEquals( BUZZ, FizzBuzz.fizzBuzz( 50 ) );
+		assertEquals( BUZZ, FizzBuzz.fizzBuzz( 110 ) );		
 	}
 	
 	@Test
 	public void shouldEqualFizzBuzz() {
-		assertEquals( "FizzBuzz", FizzBuzz.fizzBuzz( 15 ) );
-		assertEquals( "FizzBuzz", FizzBuzz.fizzBuzz( 30 ) );
-		assertEquals( "FizzBuzz", FizzBuzz.fizzBuzz( 60 ) );
-		assertEquals( "FizzBuzz", FizzBuzz.fizzBuzz( 105 ) );
+		assertEquals( FIZZ_BUZZ, FizzBuzz.fizzBuzz( 15 ) );
+		assertEquals( FIZZ_BUZZ, FizzBuzz.fizzBuzz( 30 ) );
+		assertEquals( FIZZ_BUZZ, FizzBuzz.fizzBuzz( 60 ) );
+		assertEquals( FIZZ_BUZZ, FizzBuzz.fizzBuzz( 105 ) );
 	}
 }

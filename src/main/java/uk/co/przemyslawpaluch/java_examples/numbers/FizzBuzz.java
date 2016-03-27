@@ -10,8 +10,11 @@ package uk.co.przemyslawpaluch.java_examples.numbers;
  * @author Przemyslaw Paluch
  */
 public class FizzBuzz {
-
-	public static void main(String[] args) {
+	private final static String FIZZ = "Fizz";
+	private final static String BUZZ = "Buzz";
+	private final static String FIZZ_BUZZ = "FizzBuzz";
+	
+	public static void main( String[] args ) {
 		for ( Integer i = 1; i <=100; i++ ) {
 			System.out.println( fizzBuzz( i ) );
 		}		
@@ -19,11 +22,11 @@ public class FizzBuzz {
 
 	public static String fizzBuzz( Integer i ) {
 		if ( i % ( 3 * 5 ) == 0 ) {
-			return "FizzBuzz";
+			return FIZZ_BUZZ;
 		} else if ( i % 3 == 0 ) {
-			return "Fizz";
+			return FIZZ;
 		} else if ( i % 5 == 0 ) {
-			return "Buzz";
+			return BUZZ;
 		} else {
 			return i.toString();
 		}
