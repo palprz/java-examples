@@ -6,3 +6,4 @@
 3. Strings:
   - Palindrome
   - Anagram
+  - Character counter

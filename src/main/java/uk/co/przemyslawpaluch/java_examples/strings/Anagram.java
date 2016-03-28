@@ -36,25 +36,25 @@ public class Anagram {
 		
 		for ( Integer i = 0; i < word1.length(); i++ ) {
 			//populate first hash map
-			if ( !map1.containsKey( word1.charAt( i ) ) ) {
-				map1.put( 
-						word1.charAt( i ), 
-						1 );
-			} else {
+			if ( map1.containsKey( word1.charAt( i ) ) ) {
 				map1.put( 
 						word1.charAt( i ), 
 						map1.get( word1.charAt( i ) ) + 1 );
+			} else {
+				map1.put( 
+						word1.charAt( i ), 
+						1 );
 			}			
 			
 			//populate second hash map
-			if ( !map2.containsKey( word2.charAt( i ) ) ) {
-				map2.put(
-						word2.charAt( i ),
-						1 );
-			} else {
+			if ( map2.containsKey( word2.charAt( i ) ) ) {
 				map2.put(
 						word2.charAt( i ), 
 						map2.get( word2.charAt( i ) ) + 1 );
+			} else {
+				map2.put(
+						word2.charAt( i ),
+						1 );
 			}
 		}
 		
