@@ -5,3 +5,4 @@
   - FizzBuzz
 3. Strings:
   - Palindrome
+  - Anagram
