@@ -1,8 +1,9 @@
 package uk.co.przemyslawpaluch.java_examples.strings;
 
 /**
- * <h2>Palindrome</h2>
- * Check 
+ * <h2>Program: Palindrome</h2>
+ * 
+ * Application checks if two words are palindromes.
  * 
  * @author Przemyslaw Paluch
  */
@@ -29,10 +30,18 @@ public class Palindrome {
 		}
 	}
 
+	/**
+	 * @param word the word to check
+	 * @return boolean value
+	 */
 	public static boolean checkPalindrome( String word ) {
+		//Letter one by one
 		for ( Integer i = 0; i < word.length(); i++ ) {
+			//First, second, third...
 			char frontChar = word.charAt( i );
+			//Last one, second to last, third to last...
 			char backChar = word.charAt( word.length() - ( i + 1 ) );
+			//Compare these two letters. If somewhere is different between characters -> word is not palindrome.
 			if ( !( frontChar == backChar ) ) {
 				return false;
 			}

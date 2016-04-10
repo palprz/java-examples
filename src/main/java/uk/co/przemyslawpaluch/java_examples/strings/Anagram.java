@@ -3,10 +3,11 @@ package uk.co.przemyslawpaluch.java_examples.strings;
 import java.util.HashMap;
 
 /**
- * <h2>Anagram</h2>
- * Check if two words are anagrams.
+ * <h2>Program: Anagram</h2>
  * 
- * @author Zhukov
+ * Application checks (with using HashMap) if two words are anagrams.
+ * 
+ * @author Przemyslaw Paluch
  */
 public class Anagram {
 	private final static String WORD1 = "aabbcc";
@@ -26,6 +27,13 @@ public class Anagram {
 		}
 	}
 
+	/**
+	 * Populate two HashMaps ("key/value" like "letter/number of letter" in word) for get keys with values for all 
+	 * letters of words and return boolean value by compare them.
+	 * @param word1 the first word to check
+	 * @param word2 the second word to check
+	 * @return boolean value
+	 */
 	public static boolean checkAnagram( String word1, String word2 ) {
 		if ( word1.length() != word2.length() ) {
 			return false;
@@ -34,8 +42,13 @@ public class Anagram {
 		HashMap< Character, Integer > map1 = new HashMap< Character, Integer >();
 		HashMap< Character, Integer > map2 = new HashMap< Character, Integer >();
 		
+		//Letter one by one
 		for ( Integer i = 0; i < word1.length(); i++ ) {
-			//populate first hash map
+			/* Populate first HashMap with rules:
+			 * - IF there is already number(value) for this letter(key) THEN increment number for letter
+			 * - ELSE there is no number(value) for this letter(key), means is first time when letter is in word, 
+			 * THEN put that letter with number 1
+			 */
 			if ( map1.containsKey( word1.charAt( i ) ) ) {
 				map1.put( 
 						word1.charAt( i ), 
@@ -46,7 +59,7 @@ public class Anagram {
 						1 );
 			}			
 			
-			//populate second hash map
+			//Populate second HashMap with the same rules like for first one.
 			if ( map2.containsKey( word2.charAt( i ) ) ) {
 				map2.put(
 						word2.charAt( i ), 
