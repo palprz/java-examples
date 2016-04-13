@@ -9,7 +9,7 @@ import java.util.List;
  * Fibonacci list:			1, 1, 2, 3, 5, 8, 13,21,34,55,89,144...
  * and number in this list: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11,12... 
  * 
- * Class contains methods which gets:
+ * Class contains methods which get:
  * - one of the element from Fibonacci list
  * - get numbers of first elements of Fibonacci list
  * - get numbers from Fibonacci list below maximum value
@@ -32,7 +32,7 @@ public class FibonacciWithoutRecursion {
 	public static Integer getFibonacciNumberElement( int whichElement ) {
 		//Simple check
 		if ( whichElement < 1 ) {
-			throw new ArithmeticException( "Please input element bigger then 0!" );
+			throw new ArithmeticException( "Please input element bigger than 0!" );
 		}
 		
 		//First two elements in this list must be 1
@@ -63,7 +63,7 @@ public class FibonacciWithoutRecursion {
 	public static List< Integer > getFibonacciNumbersElements( int maxFibonacciElement ) {
 		//Simple check
 		if ( maxFibonacciElement < 1 ) {
-			throw new ArithmeticException( "Please input element bigger then 0!" );
+			throw new ArithmeticException( "Please input element bigger than 0!" );
 		}
 		
 		List< Integer > fibonacciList = new ArrayList< Integer >();
@@ -99,7 +99,7 @@ public class FibonacciWithoutRecursion {
 	public static List< Integer > getFibonacciNumbersTill( int tillNumber ) {
 		//Simple check
 		if ( tillNumber < 1 ) {
-			throw new ArithmeticException( "Please input element bigger then 0!" );
+			throw new ArithmeticException( "Please input element bigger than 0!" );
 		}
 		
 		List< Integer > fibonacciList = new ArrayList< Integer >();
