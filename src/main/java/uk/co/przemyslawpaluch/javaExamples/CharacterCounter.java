@@ -1,12 +1,10 @@
-package uk.co.przemyslawpaluch.java_examples.strings;
+package uk.co.przemyslawpaluch.javaExamples;
 
 import java.util.HashMap;
 
 /**
- * <h2>Program: Character counter</h2>
- * 
+ * Program: Character counter.
  * Application counts characters (with using HashMap) in word and print them.
- * 
  * @author Przemyslaw Paluch
  */
 public class CharacterCounter {

@@ -1,12 +1,10 @@
-package uk.co.przemyslawpaluch.java_examples.strings;
+package uk.co.przemyslawpaluch.javaExamples;
 
 import java.util.HashMap;
 
 /**
- * <h2>Program: Anagram</h2>
- * 
+ * Program: Anagram.
  * Application checks (with using HashMap) if two words are anagrams.
- * 
  * @author Przemyslaw Paluch
  */
 public class Anagram {

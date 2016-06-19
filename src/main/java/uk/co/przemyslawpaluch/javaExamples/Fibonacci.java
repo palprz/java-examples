@@ -1,22 +1,19 @@
-package uk.co.przemyslawpaluch.java_examples.numbers;
+package uk.co.przemyslawpaluch.javaExamples;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * <h2>Fibonacci numbers without using recursion</h2>
- * 
+ * Program: Fibonacci numbers.
  * Fibonacci list:			1, 1, 2, 3, 5, 8, 13,21,34,55,89,144...
  * and number in this list: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11,12... 
- * 
  * Class contains methods which get:
  * - one of the element from Fibonacci list
  * - get numbers of first elements of Fibonacci list
  * - get numbers from Fibonacci list below maximum value
- * 
  * @author Przemyslaw Paluch
  */
-public class FibonacciWithoutRecursion {
+public class Fibonacci {
 
 	public static void main( String[] args ) {
 		System.out.println( "Index: 6, Fibonacci number: " + getFibonacciNumberElement( 6 ) );

@@ -1,13 +1,11 @@
-package uk.co.przemyslawpaluch.java_examples.numbers;
+package uk.co.przemyslawpaluch.javaExamples;
 
 /**
- * <h2>Program: FizzBuzz</h2>
- * 
+ * Program: FizzBuzz.
  * Application prints all the numbers from 1 to 100:<br/>
  * - for multiples of 3, instead of the number, print "Fizz",<br/> 
  * - for multiples of 5, instead of the number, print "Buzz",<br/>
  * - for numbers which are multiples of both 3 and 5, instead of the number, print "FizzBuzz".
- * 
  * @author Przemyslaw Paluch
  */
 public class FizzBuzz {

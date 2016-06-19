@@ -1,13 +1,10 @@
-package uk.co.przemyslawpaluch.java_examples.numbers;
+package uk.co.przemyslawpaluch.javaExamples;
 
 /**
- * <h2>Swap two variables without using temporary variable</h2>
- *
+ * Program: Swap two variables without using temporary variable.
  * There are a few ways of doing this (e.g. XOR). This class contains two of them:
  * - with using addition and subtraction
  * - with using multiplication and division
- *
- *
  * @author Przemyslaw Paluch
  */
 public class SwapTwoVariables {

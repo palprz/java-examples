@@ -1,10 +1,12 @@
-package uk.co.przemyslawpaluch.java_examples.strings;
+package uk.co.przemyslawpaluch.javaExamples;
 
 import static org.junit.Assert.*;
 
 import java.util.HashMap;
 
 import org.junit.Test;
+
+import uk.co.przemyslawpaluch.javaExamples.CharacterCounter;
 
 /**
  * @author Przemyslaw Paluch

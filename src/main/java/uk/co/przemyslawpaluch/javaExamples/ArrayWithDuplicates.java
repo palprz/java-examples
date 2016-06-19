@@ -1,14 +1,12 @@
-package uk.co.przemyslawpaluch.java_examples.numbers;
+package uk.co.przemyslawpaluch.javaExamples;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
 /**
- * <h2>Array with duplicates</h2>
- * 
+ * Program: Array with duplicates
  * Find duplicates in array.
- * 
  * @author Przemyslaw Paluch
  */
 public class ArrayWithDuplicates {

@@ -1,16 +1,13 @@
-package uk.co.przemyslawpaluch.java_examples.numbers;
+package uk.co.przemyslawpaluch.javaExamples;
 
 /**
- * <h2>Fibonacci with using recursion</h2>
- * 
+ * Program Fibonacci numbers with recursion.
  * Fibonacci list:			1, 1, 2, 3, 5, 8, 13,21,34,55,89,144...
  * and number in this list: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11,12... 
- * 
  * Class contains method which gets one of the element from Fibonacci list.
- * 
  * @author Przemyslaw Paluch
  */
-public class FibonacciWithRecursion {
+public class FibonacciRecursion {
 
 	public static void main(String[] args) {
 		System.out.println( getFibonacciNumberElement( 10 ) );

@@ -1,8 +1,10 @@
-package uk.co.przemyslawpaluch.java_examples.strings;
+package uk.co.przemyslawpaluch.javaExamples;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import uk.co.przemyslawpaluch.javaExamples.Anagram;
 
 /**
  * @author Przemyslaw Paluch

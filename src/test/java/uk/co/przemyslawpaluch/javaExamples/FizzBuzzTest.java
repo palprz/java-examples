@@ -1,8 +1,10 @@
-package uk.co.przemyslawpaluch.java_examples.numbers;
+package uk.co.przemyslawpaluch.javaExamples;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
+import uk.co.przemyslawpaluch.javaExamples.FizzBuzz;
 
 /**
  * @author Przemyslaw Paluch
